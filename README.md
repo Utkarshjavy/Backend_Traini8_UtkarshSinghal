@@ -17,24 +17,9 @@ Ensure you have the following installed:
 
 ### **2️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-username/Backend_Traini8_YourName.git
+git clone https://github.com/Utkarshjavy/Backend_Traini8_UtkarshSinghalgit
 cd Backend_Traini8_YourName
 ```
-
----
-
-### **3️⃣ Configure the Database**
-If using a database, update `src/main/resources/application.properties`:
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/train8
-spring.datasource.username=your_db_user
-spring.datasource.password=your_db_password
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-```
-*Ensure your database is running and the credentials are correct.*
-
----
 
 ### **4️⃣ Build and Run the Project**
 Run the following command:
@@ -101,7 +86,4 @@ java -jar target/backend-traini8.jar
 - Send the request and verify the response.
 
 ---
-
-
-
 
