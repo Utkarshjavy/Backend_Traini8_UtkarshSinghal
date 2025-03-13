@@ -1,0 +1,2 @@
+scan.packages=com.train8.backend
+spring.mvc.pathmatch.matching-strategy=ant_path_matcher
